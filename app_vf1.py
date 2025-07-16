@@ -159,12 +159,12 @@ Devuelve solo la historia modificada.
             if st.session_state.etapa_actual < len(st.session_state.etapas):
                 siguiente = st.session_state.etapas[st.session_state.etapa_actual]
                 preguntas = {
-                    "personajes": "¿Quiénes son los personajes principales?",
-                    "escenario": "¿Dónde y cuándo ocurre la historia?",
-                    "género": "¿Qué género prefieres?",
-                    "tono": "¿Qué tono quieres?",
-                    "trama": "¿Qué elementos importantes quieres en la trama?",
-                    "longitud": "¿Qué longitud prefieres?"
+                    "personajes": "¿Quiénes son los personajes principales? (Me puedes mencionar sus nombres y una descripción de ellos si prefieres)",
+                    "escenario": "¿Dónde y cuándo ocurre la historia? (Dime una ciudad, época o descripción para enriquecer la historia)",
+                    "género": "¿Qué género prefieres? (Por ejemplo: Fantasía, Ciencia ficción, Romance, Terror, Aventura, Drama...)",
+                    "tono": "¿Qué tono quieres? (Por ejemplo: Serio, Divertido, Oscuro, Inspirador, Melancólico...)",
+                    "trama": "¿Qué elementos importantes quieres en la trama? (Por ejemplo: Conflictos, giros inesperados...)",
+                    "longitud": "¿Qué longitud prefieres? (Corta: 300-400, Media: 400-600, Larga: 600-800 palabras)"
                 }
                 mensaje = preguntas.get(siguiente, "Gracias. Ya tengo todo para generar tu historia.")
                 st.session_state.chat.append({"role": "assistant", "content": mensaje})
