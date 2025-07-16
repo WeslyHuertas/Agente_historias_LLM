@@ -1,0 +1,35 @@
+# Entorno virtual
+.venv/
+.env/
+*.env
+
+# Archivos de configuración de Streamlit
+.streamlit/secrets.toml
+
+# Archivos temporales / caché
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# Archivos compilados
+*.so
+*.out
+*.o
+
+# Archivos innecesarios
+setup.bat
+test.ipynb
+models_opnai.py
+app.py
+app_vf.py
