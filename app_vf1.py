@@ -89,7 +89,7 @@ No separes el texto en partes como 'Introducción, conflicto y desenlace'. Solo 
 
             st.session_state.chat.append({"role": "assistant", "content": "¿Deseas modificar algo de la historia o continuar así como está?"})
             with st.chat_message("assistant"):
-                st.markdown("¿Deseas modificar algo de la historia o continuar así como está?")
+                st.markdown("¿Deseas modificar algo de la historia o finalizar?")
             st.session_state.modo_edicion = True
         except Exception as e:
             error = f"❌ Ocurrió un error al generar la historia: {e}"
