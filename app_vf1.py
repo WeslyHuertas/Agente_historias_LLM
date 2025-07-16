@@ -12,7 +12,7 @@ st.markdown("Interactúa con el chatbot para construir tu historia paso a paso. 
 # Estado del chat
 if "chat" not in st.session_state:
     st.session_state.chat = [
-        {"role": "assistant", "content": "¡Hola! Soy tu agente de historias. Antes de empezar, ¿cuántos años tienes?"}
+        {"role": "assistant", "content": "¡Hola! Soy tu agente de historias. Antes de empezar, ¿cuántos años tienes? (Solo número)"}
     ]
     st.session_state.etapas = ["edad", "personajes", "escenario", "género", "tono", "trama", "longitud"]
     st.session_state.respuestas = {}
