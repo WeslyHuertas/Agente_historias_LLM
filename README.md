@@ -1,13 +1,4 @@
 # Agente_historias_LLM
 LLM de generación de historias
 
-
-# Configuración en Windows
-
-Ejecute los siguientes comandos en el terminal:
-
-```bash
-python3 -m venv .venv
-.venv\Scripts\activate
-setup
-```
+Link de la página web: https://agentehistoriasllm-xpe2ep4z8qkcfa5tjvjugz.streamlit.app/
