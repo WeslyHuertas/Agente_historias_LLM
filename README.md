@@ -14,5 +14,5 @@ así como su prompt, validación y estructura del mismo
 
 ## Enlaces importantes:
 - Link de la página web: https://agentehistoriasllm-xpe2ep4z8qkcfa5tjvjugz.streamlit.app/
-- Link del reporte técnico: ---
+- Link del reporte técnico: [Reporte técnico](https://exuberant-kettledrum-efe.notion.site/Trabajo-4-aplicaciones-de-grandes-modelos-de-lenguaje-23174d93c43d80d692ecf9faf17a06bb)
 - Video explicación del módelo: https://www.youtube.com/watch?v=WWvbeQVpPcc&ab_channel=AlejandroTorrado 
